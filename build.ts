@@ -116,14 +116,24 @@ async function build() {
     sourcemap: 'linked',
     minify: false,
     splitting: false,
-    // Feature flags for bun:bundle's feature() API
-    // These control dead-code elimination at build time
-    define: Object.fromEntries(
-      Object.entries(FEATURE_FLAGS).map(([key, value]) => [
-        `__FEATURE_${key}__`,
-        String(value),
-      ])
-    ),
+    // Build-time constants
+    define: {
+      // MACRO object — replaced at build time
+      'MACRO.VERSION': JSON.stringify('2.1.88-dev'),
+      'MACRO.VERSION_CHANGELOG': JSON.stringify(''),
+      'MACRO.BUILD_TIME': JSON.stringify(new Date().toISOString()),
+      'MACRO.FEEDBACK_CHANNEL': JSON.stringify('#claude-code-feedback'),
+      'MACRO.ISSUES_EXPLAINER': JSON.stringify('https://github.com/anthropics/claude-code/issues'),
+      'MACRO.PACKAGE_URL': JSON.stringify('https://www.npmjs.com/package/@anthropic-ai/claude-code'),
+      'MACRO.NATIVE_PACKAGE_URL': JSON.stringify(''),
+      // Feature flags for bun:bundle's feature() API
+      ...Object.fromEntries(
+        Object.entries(FEATURE_FLAGS).map(([key, value]) => [
+          `__FEATURE_${key}__`,
+          String(value),
+        ])
+      ),
+    },
     external: [
       // Node.js built-ins
       'node:*',
