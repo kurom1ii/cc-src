@@ -1,5 +1,4 @@
-// Stub: feature-gated module not included in source map extraction
-// Auto-populated exports from import analysis
+// Stub: feature-gated module (auto-generated exports from import analysis)
 export const PasteEvent = {} as any
-export default {} as any
 export type PasteEvent = any
+export default {} as any

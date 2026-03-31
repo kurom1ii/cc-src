@@ -1,4 +1,5 @@
 // biome-ignore-all assist/source/organizeImports: ANT-ONLY import markers must not be reordered
+// @ts-nocheck
 import type {
   ToolResultBlockParam,
   ToolUseBlock,

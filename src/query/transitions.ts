@@ -1,8 +1,6 @@
-// Stub: feature-gated module not included in source map extraction
-// Auto-populated exports from import analysis
-export const Terminal = {} as any
-export const transition = {} as any
+// Stub: feature-gated module (auto-generated exports from import analysis)
+export const Continue = {} as any
 export type Continue = any
-export type TransitionContext = any
-export default {} as any
+export const Terminal = {} as any
 export type Terminal = any
+export default {} as any

@@ -1,6 +1,4 @@
-// Stub: feature-gated module not included in source map extraction
+// Stub: feature-gated module (auto-generated exports from import analysis)
 export const TungstenTool = {} as any
-export const TungstenLiveMonitor = {} as any
 export type TungstenTool = any
-export type TungstenLiveMonitor = any
-export default TungstenTool
+export default {} as any

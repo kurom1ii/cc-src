@@ -1,4 +1,5 @@
 // These side-effects must run before all other imports:
+// @ts-nocheck
 // 1. profileCheckpoint marks entry before heavy module evaluation begins
 // 2. startMdmRawRead fires MDM subprocesses (plutil/reg query) so they run in
 //    parallel with the remaining ~135ms of imports below

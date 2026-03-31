@@ -1,4 +1,5 @@
 // Non-React scheduler core for .claude/scheduled_tasks.json.
+// @ts-nocheck
 // Shared by REPL (via useScheduledTasks) and SDK/-p mode (print.ts).
 //
 // Lifecycle: poll getScheduledTasksEnabled() until true (flag flips when

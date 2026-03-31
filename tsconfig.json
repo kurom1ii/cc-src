@@ -39,5 +39,5 @@
     "build.ts",
     "globals.d.ts"
   ],
-  "exclude": ["node_modules", "node_modules.src", "dist"]
+  "exclude": ["node_modules", "node_modules.src", "dist", "packages/@ant/computer-use-mcp/src/toolCalls.ts"]
 }

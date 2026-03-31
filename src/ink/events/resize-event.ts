@@ -1,5 +1,4 @@
-// Stub: feature-gated module not included in source map extraction
-// Auto-populated exports from import analysis
+// Stub: feature-gated module (auto-generated exports from import analysis)
 export const ResizeEvent = {} as any
-export default {} as any
 export type ResizeEvent = any
+export default {} as any

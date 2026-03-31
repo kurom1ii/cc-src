@@ -1,5 +1,38 @@
-// Stub: feature-gated module not included in source map extraction
-// Auto-populated exports from import analysis
+// Stub: feature-gated module (auto-generated exports from import analysis)
 export const EffortLevel = {} as any
-export default {} as any
 export type EffortLevel = any
+export type AnyZodRawShape = any
+export const AnyZodRawShape = {} as any
+export type ForkSessionOptions = any
+export const ForkSessionOptions = {} as any
+export type ForkSessionResult = any
+export const ForkSessionResult = {} as any
+export type GetSessionInfoOptions = any
+export const GetSessionInfoOptions = {} as any
+export type GetSessionMessagesOptions = any
+export const GetSessionMessagesOptions = {} as any
+export type InferShape = any
+export const InferShape = {} as any
+export type InternalOptions = any
+export const InternalOptions = {} as any
+export type InternalQuery = any
+export const InternalQuery = {} as any
+export type ListSessionsOptions = any
+export const ListSessionsOptions = {} as any
+export type McpSdkServerConfigWithInstance = any
+export const McpSdkServerConfigWithInstance = {} as any
+export type Options = any
+export const Options = {} as any
+export type Query = any
+export const Query = {} as any
+export type SDKSession = any
+export const SDKSession = {} as any
+export type SDKSessionOptions = any
+export const SDKSessionOptions = {} as any
+export type SdkMcpToolDefinition = any
+export const SdkMcpToolDefinition = {} as any
+export type SessionMessage = any
+export const SessionMessage = {} as any
+export type SessionMutationOptions = any
+export const SessionMutationOptions = {} as any
+export default {} as any
