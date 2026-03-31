@@ -1,3 +1,4 @@
-// Stub: internal Anthropic tool not in source map
-export const TungstenLiveMonitor = null as any
-export default TungstenLiveMonitor
+// Stub: feature-gated module not included in source map extraction
+// Auto-populated exports from import analysis
+export type TungstenLiveMonitor = any
+export default {} as any

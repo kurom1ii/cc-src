@@ -1,0 +1,43 @@
+// Stub: feature-gated module not included in source map extraction
+// Auto-populated exports from import analysis
+export const AnyValueMap = {} as any
+export const Attributes = {} as any
+export const BasicTracerProvider = {} as any
+export const buildPluginCommandTelemetryFields = {} as any
+export const buildPluginTelemetryFields = {} as any
+export const clearBetaTracingState = {} as any
+export const otelContext = {} as any
+export const diag = {} as any
+export const DiagLogger = {} as any
+export const endInteractionSpan = {} as any
+export const getTelemetryAttributes = {} as any
+export const HrTime = {} as any
+export const isBetaTracingEnabled = {} as any
+export const LoggerProvider = {} as any
+export const logOTelEvent = {} as any
+export const logPluginLoadErrors = {} as any
+export const logPluginsEnabledForSession = {} as any
+export const logs = {} as any
+export const logSkillsLoaded = {} as any
+export const MeterProvider = {} as any
+export const redactIfDisabled = {} as any
+export const resourceFromAttributes = {} as any
+export const Span = {} as any
+export const startInteractionSpan = {} as any
+export const trace = {} as any
+export const unregisterPerfettoAgent = {} as any
+export type DiagLogLevel = any
+export type ExportResult = any
+export type ExportResultCode = any
+export type HrTime = any
+export type Logger = any
+export type Meter = any
+export type MetricOptions = any
+export type Span = any
+export default {} as any
+export type AnyValueMap = any
+export type Attributes = any
+export type BasicTracerProvider = any
+export type DiagLogger = any
+export type LoggerProvider = any
+export type MeterProvider = any

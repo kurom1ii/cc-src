@@ -1,4 +1,5 @@
-// Stub: feature-gated module (CONNECTOR_TEXT)
-export type ConnectorText = string
-export interface ConnectorTextConfig {}
-export const CONNECTOR_TEXT_ENABLED = false
+// Stub: feature-gated module not included in source map extraction
+// Auto-populated exports from import analysis
+export const isConnectorTextBlock = {} as any
+export type ConnectorTextBlock = any
+export default {} as any
