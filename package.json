@@ -90,7 +90,7 @@
     "qrcode": "^1.5.4",
     "react": "^19.0.0",
     "react-compiler-runtime": "^1.0.0",
-    "react-reconciler": "^0.31.0",
+    "react-reconciler": "0.33.0",
     "semver": "^7.6.0",
     "sharp": "^0.34.2",
     "shell-quote": "^1.8.0",
