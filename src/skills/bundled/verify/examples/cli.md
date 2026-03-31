@@ -1,0 +1,2 @@
+# CLI verification example
+Stub
